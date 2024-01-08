@@ -1,0 +1,107 @@
+C:\Users\excha\source\repos\WcfService\WcfService\bin\Debug\WcfService.dll.config
+C:\Users\excha\source\repos\WcfService\WcfService\bin\Debug\WcfService.dll
+C:\Users\excha\source\repos\WcfService\WcfService\bin\Debug\WcfService.pdb
+C:\Users\excha\source\repos\WcfService\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\excha\source\repos\WcfService\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\excha\source\repos\WcfService\WcfService\obj\Debug\WcfService.dll
+C:\Users\excha\source\repos\WcfService\WcfService\obj\Debug\WcfService.pdb
+C:\Users\excha\Desktop\C# Project\WcfService\WcfService\bin\Debug\WcfService.dll.config
+C:\Users\excha\Desktop\C# Project\WcfService\WcfService\bin\Debug\WcfService.dll
+C:\Users\excha\Desktop\C# Project\WcfService\WcfService\bin\Debug\WcfService.pdb
+C:\Users\excha\Desktop\C# Project\WcfService\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\excha\Desktop\C# Project\WcfService\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\excha\Desktop\C# Project\WcfService\WcfService\obj\Debug\WcfService.dll
+C:\Users\excha\Desktop\C# Project\WcfService\WcfService\obj\Debug\WcfService.pdb
+C:\Users\excha\Desktop\C# Project\WcfService\WcfService\bin\Debug\EntityFramework.dll
+C:\Users\excha\Desktop\C# Project\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\excha\Desktop\C# Project\WcfService\WcfService\bin\Debug\EntityFramework.xml
+C:\Users\excha\Desktop\C# Project\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\abed\Downloads\C# Project\WcfService\WcfService\bin\Debug\WcfService.dll.config
+C:\Users\abed\Downloads\C# Project\WcfService\WcfService\bin\Debug\WcfService.dll
+C:\Users\abed\Downloads\C# Project\WcfService\WcfService\bin\Debug\WcfService.pdb
+C:\Users\abed\Downloads\C# Project\WcfService\WcfService\bin\Debug\EntityFramework.dll
+C:\Users\abed\Downloads\C# Project\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\abed\Downloads\C# Project\WcfService\WcfService\bin\Debug\EntityFramework.xml
+C:\Users\abed\Downloads\C# Project\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\abed\Downloads\C# Project\WcfService\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\abed\Downloads\C# Project\WcfService\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\abed\Downloads\C# Project\WcfService\WcfService\obj\Debug\WcfService.dll
+C:\Users\abed\Downloads\C# Project\WcfService\WcfService\obj\Debug\WcfService.pdb
+G:\C# Project\WcfService\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+G:\C# Project\WcfService\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+G:\C# Project\WcfService\WcfService\obj\Debug\WcfService.dll
+G:\C# Project\WcfService\WcfService\obj\Debug\WcfService.pdb
+G:\C# Project\WcfService\WcfService\bin\Debug\WcfService.dll.config
+G:\C# Project\WcfService\WcfService\bin\Debug\WcfService.dll
+G:\C# Project\WcfService\WcfService\bin\Debug\WcfService.pdb
+G:\C# Project\WcfService\WcfService\bin\Debug\EntityFramework.dll
+G:\C# Project\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+G:\C# Project\WcfService\WcfService\bin\Debug\EntityFramework.xml
+G:\C# Project\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+G:\last C#\WcfService\WcfService\bin\Debug\WcfService.dll.config
+G:\last C#\WcfService\WcfService\bin\Debug\WcfService.dll
+G:\last C#\WcfService\WcfService\bin\Debug\WcfService.pdb
+G:\last C#\WcfService\WcfService\bin\Debug\EntityFramework.dll
+G:\last C#\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+G:\last C#\WcfService\WcfService\bin\Debug\EntityFramework.xml
+G:\last C#\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+G:\last C#\WcfService\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+G:\last C#\WcfService\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+G:\last C#\WcfService\WcfService\obj\Debug\WcfService.dll
+G:\last C#\WcfService\WcfService\obj\Debug\WcfService.pdb
+C:\Users\excha\Desktop\updateC#\WcfService\WcfService\bin\Debug\WcfService.dll.config
+C:\Users\excha\Desktop\updateC#\WcfService\WcfService\bin\Debug\WcfService.dll
+C:\Users\excha\Desktop\updateC#\WcfService\WcfService\bin\Debug\WcfService.pdb
+C:\Users\excha\Desktop\updateC#\WcfService\WcfService\bin\Debug\EntityFramework.dll
+C:\Users\excha\Desktop\updateC#\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\excha\Desktop\updateC#\WcfService\WcfService\bin\Debug\EntityFramework.xml
+C:\Users\excha\Desktop\updateC#\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\excha\Desktop\updateC#\WcfService\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\excha\Desktop\updateC#\WcfService\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\excha\Desktop\updateC#\WcfService\WcfService\obj\Debug\WcfService.dll
+C:\Users\excha\Desktop\updateC#\WcfService\WcfService\obj\Debug\WcfService.pdb
+C:\Users\abed\Downloads\updateC#\updateC#\WcfService\WcfService\bin\Debug\WcfService.dll.config
+C:\Users\abed\Downloads\updateC#\updateC#\WcfService\WcfService\bin\Debug\WcfService.dll
+C:\Users\abed\Downloads\updateC#\updateC#\WcfService\WcfService\bin\Debug\WcfService.pdb
+C:\Users\abed\Downloads\updateC#\updateC#\WcfService\WcfService\bin\Debug\EntityFramework.dll
+C:\Users\abed\Downloads\updateC#\updateC#\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\abed\Downloads\updateC#\updateC#\WcfService\WcfService\bin\Debug\EntityFramework.xml
+C:\Users\abed\Downloads\updateC#\updateC#\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\abed\Downloads\updateC#\updateC#\WcfService\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\abed\Downloads\updateC#\updateC#\WcfService\WcfService\obj\Debug\WcfService.dll
+C:\Users\abed\Downloads\updateC#\updateC#\WcfService\WcfService\obj\Debug\WcfService.pdb
+C:\Users\abed\Downloads\updateC#\updateC#\WcfService\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\updateC#\updateC#\updateC#\WcfService\WcfService\bin\Debug\WcfService.dll.config
+C:\Users\USER\Desktop\updateC#\updateC#\updateC#\WcfService\WcfService\bin\Debug\WcfService.dll
+C:\Users\USER\Desktop\updateC#\updateC#\updateC#\WcfService\WcfService\bin\Debug\WcfService.pdb
+C:\Users\USER\Desktop\updateC#\updateC#\updateC#\WcfService\WcfService\bin\Debug\EntityFramework.dll
+C:\Users\USER\Desktop\updateC#\updateC#\updateC#\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Desktop\updateC#\updateC#\updateC#\WcfService\WcfService\bin\Debug\EntityFramework.xml
+C:\Users\USER\Desktop\updateC#\updateC#\updateC#\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Desktop\updateC#\updateC#\updateC#\WcfService\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\updateC#\updateC#\updateC#\WcfService\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\updateC#\updateC#\updateC#\WcfService\WcfService\obj\Debug\WcfService.dll
+C:\Users\USER\Desktop\updateC#\updateC#\updateC#\WcfService\WcfService\obj\Debug\WcfService.pdb
+C:\Users\USER\Desktop\Project\WcfService\WcfService\bin\Debug\WcfService.dll.config
+C:\Users\USER\Desktop\Project\WcfService\WcfService\bin\Debug\WcfService.dll
+C:\Users\USER\Desktop\Project\WcfService\WcfService\bin\Debug\WcfService.pdb
+C:\Users\USER\Desktop\Project\WcfService\WcfService\bin\Debug\EntityFramework.dll
+C:\Users\USER\Desktop\Project\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Desktop\Project\WcfService\WcfService\bin\Debug\EntityFramework.xml
+C:\Users\USER\Desktop\Project\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Desktop\Project\WcfService\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Project\WcfService\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Project\WcfService\WcfService\obj\Debug\WcfService.dll
+C:\Users\USER\Desktop\Project\WcfService\WcfService\obj\Debug\WcfService.pdb
+C:\Users\wasee\OneDrive\Documents\GitHub\Four in Row\Project\WcfService\WcfService\bin\Debug\WcfService.dll.config
+C:\Users\wasee\OneDrive\Documents\GitHub\Four in Row\Project\WcfService\WcfService\bin\Debug\WcfService.dll
+C:\Users\wasee\OneDrive\Documents\GitHub\Four in Row\Project\WcfService\WcfService\bin\Debug\WcfService.pdb
+C:\Users\wasee\OneDrive\Documents\GitHub\Four in Row\Project\WcfService\WcfService\bin\Debug\EntityFramework.dll
+C:\Users\wasee\OneDrive\Documents\GitHub\Four in Row\Project\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\wasee\OneDrive\Documents\GitHub\Four in Row\Project\WcfService\WcfService\bin\Debug\EntityFramework.xml
+C:\Users\wasee\OneDrive\Documents\GitHub\Four in Row\Project\WcfService\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\wasee\OneDrive\Documents\GitHub\Four in Row\Project\WcfService\WcfService\obj\Debug\WcfService.csproj.AssemblyReference.cache
+C:\Users\wasee\OneDrive\Documents\GitHub\Four in Row\Project\WcfService\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\wasee\OneDrive\Documents\GitHub\Four in Row\Project\WcfService\WcfService\obj\Debug\WcfService.csproj.CopyComplete
+C:\Users\wasee\OneDrive\Documents\GitHub\Four in Row\Project\WcfService\WcfService\obj\Debug\WcfService.dll
+C:\Users\wasee\OneDrive\Documents\GitHub\Four in Row\Project\WcfService\WcfService\obj\Debug\WcfService.pdb

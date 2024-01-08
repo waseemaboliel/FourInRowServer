@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="four_in_row_DB_AbolielModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CurrentGame_Entity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdGame" Type="Int32" Nullable="false" />
+    <Property Name="Game_Entity_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Game_Entity" Relationship="Self.FK_CurrentGame_EntityGame_Entity" FromRole="CurrentGame_Entity" ToRole="Game_Entity" />
+  </EntityType>
+  <EntityType Name="Game_Entity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TimeStarting" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Winner" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CurrentGamesId" Type="Int32" Nullable="false" />
+    <Property Name="HistoryGamesId" Type="Int32" Nullable="false" />
+    <Property Name="FirstPlayer_Id" Type="Int32" Nullable="false" />
+    <Property Name="SecondPlayer_Id" Type="Int32" Nullable="false" />
+    <Property Name="PlayerTurn" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Player_EntityId" Type="Int32" Nullable="false" />
+    <Property Name="Player_EntityId1" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CurrentGame_Entity" Relationship="Self.FK_CurrentGame_EntityGame_Entity" FromRole="Game_Entity" ToRole="CurrentGame_Entity" />
+    <NavigationProperty Name="HistoryGame_Entity" Relationship="Self.FK_HistoryGame_EntityGame_Entity" FromRole="Game_Entity" ToRole="HistoryGame_Entity" />
+    <NavigationProperty Name="Player_Entity" Relationship="Self.FK_Player_EntityGame_Entity" FromRole="Game_Entity" ToRole="Player_Entity" />
+    <NavigationProperty Name="Player_Entity1" Relationship="Self.FK_Player_EntityGame_Entity1" FromRole="Game_Entity" ToRole="Player_Entity" />
+  </EntityType>
+  <EntityType Name="HistoryGame_Entity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdGame" Type="Int32" Nullable="false" />
+    <Property Name="Game_Entity_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Game_Entity" Relationship="Self.FK_HistoryGame_EntityGame_Entity" FromRole="HistoryGame_Entity" ToRole="Game_Entity" />
+  </EntityType>
+  <EntityType Name="Player_Entity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Game_Entity" Relationship="Self.FK_Player_EntityGame_Entity" FromRole="Player_Entity" ToRole="Game_Entity" />
+    <NavigationProperty Name="Game_Entity1" Relationship="Self.FK_Player_EntityGame_Entity1" FromRole="Player_Entity" ToRole="Game_Entity" />
+  </EntityType>
+  <Association Name="FK_CurrentGame_EntityGame_Entity">
+    <End Role="Game_Entity" Type="Self.Game_Entity" Multiplicity="1" />
+    <End Role="CurrentGame_Entity" Type="Self.CurrentGame_Entity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Game_Entity">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CurrentGame_Entity">
+        <PropertyRef Name="Game_Entity_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoryGame_EntityGame_Entity">
+    <End Role="Game_Entity" Type="Self.Game_Entity" Multiplicity="1" />
+    <End Role="HistoryGame_Entity" Type="Self.HistoryGame_Entity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Game_Entity">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="HistoryGame_Entity">
+        <PropertyRef Name="Game_Entity_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Player_EntityGame_Entity">
+    <End Role="Player_Entity" Type="Self.Player_Entity" Multiplicity="1" />
+    <End Role="Game_Entity" Type="Self.Game_Entity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Player_Entity">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Game_Entity">
+        <PropertyRef Name="Player_EntityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Player_EntityGame_Entity1">
+    <End Role="Player_Entity" Type="Self.Player_Entity" Multiplicity="1" />
+    <End Role="Game_Entity" Type="Self.Game_Entity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Player_Entity">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Game_Entity">
+        <PropertyRef Name="Player_EntityId1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="four_in_row_DB_AbolielEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CurrentGame_Entity" EntityType="Self.CurrentGame_Entity" />
+    <EntitySet Name="Game_Entity" EntityType="Self.Game_Entity" />
+    <EntitySet Name="HistoryGame_Entity" EntityType="Self.HistoryGame_Entity" />
+    <EntitySet Name="Player_Entity" EntityType="Self.Player_Entity" />
+    <AssociationSet Name="FK_CurrentGame_EntityGame_Entity" Association="Self.FK_CurrentGame_EntityGame_Entity">
+      <End Role="Game_Entity" EntitySet="Game_Entity" />
+      <End Role="CurrentGame_Entity" EntitySet="CurrentGame_Entity" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoryGame_EntityGame_Entity" Association="Self.FK_HistoryGame_EntityGame_Entity">
+      <End Role="Game_Entity" EntitySet="Game_Entity" />
+      <End Role="HistoryGame_Entity" EntitySet="HistoryGame_Entity" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Player_EntityGame_Entity" Association="Self.FK_Player_EntityGame_Entity">
+      <End Role="Player_Entity" EntitySet="Player_Entity" />
+      <End Role="Game_Entity" EntitySet="Game_Entity" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Player_EntityGame_Entity1" Association="Self.FK_Player_EntityGame_Entity1">
+      <End Role="Player_Entity" EntitySet="Player_Entity" />
+      <End Role="Game_Entity" EntitySet="Game_Entity" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

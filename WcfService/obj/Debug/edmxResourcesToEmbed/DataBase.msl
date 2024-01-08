@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="four_in_row_DB_AbolielModelStoreContainer" CdmEntityContainer="four_in_row_DB_AbolielEntities">
+    <EntitySetMapping Name="CurrentGame_Entity">
+      <EntityTypeMapping TypeName="four_in_row_DB_AbolielModel.CurrentGame_Entity">
+        <MappingFragment StoreEntitySet="CurrentGame_Entity">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdGame" ColumnName="IdGame" />
+          <ScalarProperty Name="Game_Entity_Id" ColumnName="Game_Entity_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Game_Entity">
+      <EntityTypeMapping TypeName="four_in_row_DB_AbolielModel.Game_Entity">
+        <MappingFragment StoreEntitySet="Game_Entity">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TimeStarting" ColumnName="TimeStarting" />
+          <ScalarProperty Name="Winner" ColumnName="Winner" />
+          <ScalarProperty Name="CurrentGamesId" ColumnName="CurrentGamesId" />
+          <ScalarProperty Name="HistoryGamesId" ColumnName="HistoryGamesId" />
+          <ScalarProperty Name="FirstPlayer_Id" ColumnName="FirstPlayer_Id" />
+          <ScalarProperty Name="SecondPlayer_Id" ColumnName="SecondPlayer_Id" />
+          <ScalarProperty Name="PlayerTurn" ColumnName="PlayerTurn" />
+          <ScalarProperty Name="Player_EntityId" ColumnName="Player_EntityId" />
+          <ScalarProperty Name="Player_EntityId1" ColumnName="Player_EntityId1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistoryGame_Entity">
+      <EntityTypeMapping TypeName="four_in_row_DB_AbolielModel.HistoryGame_Entity">
+        <MappingFragment StoreEntitySet="HistoryGame_Entity">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdGame" ColumnName="IdGame" />
+          <ScalarProperty Name="Game_Entity_Id" ColumnName="Game_Entity_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Player_Entity">
+      <EntityTypeMapping TypeName="four_in_row_DB_AbolielModel.Player_Entity">
+        <MappingFragment StoreEntitySet="Player_Entity">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

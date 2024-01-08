@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="four_in_rowDB_hsenkhlModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Games">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="result" Type="Int32" Nullable="false" />
+    <Property Name="startTime" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="opponent" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="endTime" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="playerName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="final" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="gameDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UserId1" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_UserGame" FromRole="Games" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="points" Type="Int32" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="numberOfGames" Type="Int32" Nullable="false" />
+    <Property Name="win" Type="Int32" Nullable="false" />
+    <Property Name="lose" Type="Int32" Nullable="false" />
+    <Property Name="winPer" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <NavigationProperty Name="Games" Relationship="Self.FK_UserGame" FromRole="Users" ToRole="Games" />
+  </EntityType>
+  <Association Name="FK_UserGame">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Games" Type="Self.Games" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Games">
+        <PropertyRef Name="UserId1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="four_in_rowDB_hsenkhlEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Games" EntityType="Self.Games" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_UserGame" Association="Self.FK_UserGame">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Games" EntitySet="Games" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

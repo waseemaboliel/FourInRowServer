@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d89ac6ec6f494c0bb22e9fe9b7ad1401" Name="Diagram1">
+        <EntityTypeShape EntityType="four_in_row_DB_AbolielModel.CurrentGame_Entity" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="four_in_row_DB_AbolielModel.Game_Entity" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="four_in_row_DB_AbolielModel.HistoryGame_Entity" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="four_in_row_DB_AbolielModel.Player_Entity" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="four_in_row_DB_AbolielModel.FK_CurrentGame_EntityGame_Entity" ManuallyRouted="false" />
+        <AssociationConnector Association="four_in_row_DB_AbolielModel.FK_HistoryGame_EntityGame_Entity" ManuallyRouted="false" />
+        <AssociationConnector Association="four_in_row_DB_AbolielModel.FK_Player_EntityGame_Entity" ManuallyRouted="false" />
+        <AssociationConnector Association="four_in_row_DB_AbolielModel.FK_Player_EntityGame_Entity1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

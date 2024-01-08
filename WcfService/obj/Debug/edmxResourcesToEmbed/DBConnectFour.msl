@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="four_in_rowDB_hsenkhlModelStoreContainer" CdmEntityContainer="four_in_rowDB_hsenkhlEntities">
+    <EntitySetMapping Name="Games">
+      <EntityTypeMapping TypeName="four_in_rowDB_hsenkhlModel.Games">
+        <MappingFragment StoreEntitySet="Games">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="result" ColumnName="result" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="opponent" ColumnName="opponent" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="endTime" ColumnName="endTime" />
+          <ScalarProperty Name="playerName" ColumnName="playerName" />
+          <ScalarProperty Name="final" ColumnName="final" />
+          <ScalarProperty Name="gameDate" ColumnName="gameDate" />
+          <ScalarProperty Name="UserId1" ColumnName="UserId1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="four_in_rowDB_hsenkhlModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="points" ColumnName="points" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="numberOfGames" ColumnName="numberOfGames" />
+          <ScalarProperty Name="win" ColumnName="win" />
+          <ScalarProperty Name="lose" ColumnName="lose" />
+          <ScalarProperty Name="winPer" ColumnName="winPer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
